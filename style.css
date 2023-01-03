@@ -1,7 +1,7 @@
-p {
-    font-size: 20px;
-    color: darkslateblue;
-    margin-left: 20px;
+p,ul,dl,table
+{
+    font-size: 16px;
+    color: rgb(69, 63, 92);
 }
 
 h1
@@ -17,7 +17,13 @@ h2
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.header-footer {
+dt
+{
+    font-weight: bold;
+}
+
+.header-footer
+{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     border-style: solid;
     border-width: 5px;
@@ -26,4 +32,16 @@ h2
     text-align: center;
     width: 25%;
     font-weight: bold;
+    background-color: aqua;
+}
+
+.center-table
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.margin-left
+{
+    margin-left: 20px;
 }
